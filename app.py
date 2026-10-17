@@ -2,7 +2,7 @@
 from groq import Groq
 
 # ---------------------------------------------------------
-# Sayfa Yapılandırması
+
 # ---------------------------------------------------------
 st.set_page_config(
     page_title="Sosyal Yankı Filtresi",
