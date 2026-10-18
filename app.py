@@ -23,7 +23,7 @@ client = Groq(api_key=GROQ_API_KEY)
 def ai_yanit_al(prompt, system_prompt="Sen tarafsız ve profesyonel bir asistansın."):
     try:
         completion = client.chat.completions.create(
-            model="llama-3.1-8b-instant", 
+            model="llama3-8b-8192",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": prompt}
